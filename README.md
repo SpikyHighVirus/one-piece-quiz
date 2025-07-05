@@ -52,13 +52,6 @@ A fun, animated quiz that tells you which One Piece character you are based on y
 
 ---
 
-## 🧠 Credits
-
-This project was made by [Your Name] as part of a creative club submission.  
-Inspired by the world of **One Piece** created by **Eiichiro Oda**.
-
----
-
 ## 📜 License
 
 MIT License — free to use and modify!
