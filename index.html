@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Which One Piece Character Are You?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <!-- 🌟 Start Screen -->
+  <div id="startContainer" class="card">
+    <h1 class="title">Which One Piece<br>Character Are You?</h1>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <!-- 📋 Quiz -->
+  <div id="quizContainer" class="card hidden">
+    <h2 id="question"></h2>
+    <div id="options"></div>
+  </div>
+
+  <!-- 🏁 Result -->
+  <div id="resultContainer" class="card hidden">
+    <h2 id="resultName"></h2>
+    <img id="resultImage" />
+    <p id="resultDesc"></p>
+    <button onclick="restartQuiz()">Try Again</button>
+  </div>
+
+  <div id="loading" class="card">Loading...</div>
+
+  <!-- 🎉 Confetti + Sound -->
+  <canvas id="confetti-canvas"></canvas>
+  <audio id="popSound" src="content/pop.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
